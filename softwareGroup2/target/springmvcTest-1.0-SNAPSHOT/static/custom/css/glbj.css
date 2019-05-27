@@ -1,0 +1,68 @@
+/*公用*/
+.comWidth{width: 1190px;margin-left: auto;margin-right: auto;}
+.leftArea{float: left;}
+.rightArea{float: right;}
+/*topBar*/
+.topBar{height:35px;background-color: #f5f5f5;line-height: 36px;border-bottom: #efefef 1px solid;}
+.index-top4{padding-right: 40px;}
+.index-top5{padding-right: 28px;}
+.index-top6{padding:0 2px;}
+.index-top7{padding-right: 26px;}
+/*logo部分*/
+.logo{height: 100px;border-bottom: #e6e6e6 1px solid;}
+.logo img{float: left;margin-top: 24px;margin-left: -94px;}
+.logo h1{font-family: Microsoft JhengHei;float: left;margin-top: 40px;font-size: 30px;margin-left: 10px;color: #3e3e3e;}
+/*导航菜单*/
+.bj-content{margin-top: 20px;}
+.gl-top{width: 280px;height: 55px;background-color: #f4d506;border-radius: 3px;}
+.gl-top h2{line-height: 55px;text-align: center;font-size: 25px;font-family: 宋体;color: #ffffff;font-style: italic;margin-bottom: 20px;}
+.gl-main{margin-top: 10px;border-left: #f0f0f0 1px solid;border-bottom: #f0f0f0 1px solid;border-right: #f0f0f0 1px solid}
+.gl-main-name{font-size: 18px;text-align: center;line-height: 44px;border-bottom: #f0f0f0 1px solid;}
+.main-name{padding-top:12px ;}
+.main-list{padding-top: 9px;
+    border-top: #EEEEEE 1px solid;
+    line-height: 55px;}
+.main-list-special{
+    height: 100px;
+    padding-top: 32px;}
+/*基本信息页*/
+.sp{width: 888px;}
+.sp-top{width: 888px;height: 55px;border-radius: 3px;border-bottom:#f0f0f0 1px solid;}
+.sp-main{ height: 630px;}
+.jb-main{font-size: 18px;text-align: center;line-height: 44px;border-bottom: #f0f0f0 1px solid;border-right: #f0f0f0 1px solid;}
+.jb-name{padding-top: 11px;}
+.jb-list{padding-top: 20px;border-top:#EEEEEE 1px solid ;}
+.jb-list a{
+	display: inline-block;
+    
+    color: #f4d506;
+}
+.jb2{
+	
+	margin: 0 auto;
+	padding: 16px 200px;
+
+	height:193px;
+}
+.jb1{width: 500px;height: 34px;margin:9px;position: relative;border: #3e3e3e 1px solid;padding-left: 6px;}
+
+.jb2 img{position: relative;top: 6px;}
+.jb-list-special{padding-bottom: 80px;width: 500px;border: #3e3e3e 1px solid;position: relative;top: -11px;padding-left: 8px;padding-top: 6px;}
+/*按钮们*/
+.btns{
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+button{float: right;
+    
+    margin-right: 52px;}
+/*页脚*/
+.footer{ height: 150px;background-color: #FFFFFF;position: absolute;top: 800px;left: 36px;}
+.footer-main1{margin-top: 40px;border: #ebebeb 1px solid;border-left:none;border-right:none;height: 50px;width: 1046px;margin-left: 210px;}
+.footer-main{margin-left: 6px;position: relative;top: 16px;font-size: 12px;border-right: #666666 1px solid;padding-right: 8px;}
+.footer-main2{position: relative;top: 15px;left: 216px;margin-left: 7px;font-size: 13px;}
+.footer-main4{float: left;margin-left: 925px;margin-top: -3px;font-size: 13px;color: #9c9c9c;width: 314px;}
+.footer-main5{float: left;margin: 10px 0 0 223px;font-size: 13px;color: #9c9c9c;}
+

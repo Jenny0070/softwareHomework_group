@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.AdminDao">
+
+    <insert id="insertFood" parameterType="com.steins.entity.Food">
+        INSERT INTO
+        `food_user`.`food`
+         ( `food_name`, `food_desc`, `food_pic`, `store_id`)
+          VALUES
+          ( #{foodName}, #{foodDesc}, #{foodPic}, #{storeId});
+    </insert>
+
+    <insert id="insertStore" parameterType="com.steins.entity.Store">
+        INSERT INTO
+        `food_user`.`store`
+        ( `store_name`, `store_pic`, `store_desc`, `store_score`, `store_ranking`, `store_tel`)
+         VALUES
+         (#{storeName}, #{storePic}, #{storeDesc}, #{storeScore}, #{storeRanking}, #{storeTel});
+    </insert>
+    <update id="updateFood" parameterType="com.steins.entity.Food">
+        UPDATE
+        `food_user`.`food`
+         SET `food_name`=#{foodName}, `food_desc`=#{foodDesc},
+         `food_pic`= #{foodPic}, `store_id`= #{storeId}
+         WHERE (`food_id`=#{foodId});
+    </update>
+    <update id="updateStore" parameterType="com.steins.entity.Store">
+        UPDATE
+        `food_user`.`store`
+         SET
+         `store_name`=#{storeName}, `store_pic`=#{storePic},
+          `store_desc`=#{storeDesc}, `store_score`=#{storeScore},
+           `store_ranking`= #{storeRanking}, `store_tel`=#{storeTel}
+         WHERE (`store_id`=#{storeId});
+    </update>
+    <delete id="deleteFood">
+        delete from food where food_id=#{foodId}
+    </delete>
+    <delete id="deleteStore">
+        delete from store where store_id=#{storeId}
+    </delete>
+    <delete id="deleteComment">
+        delete from sid_comment where comment_id=#{commentId}
+    </delete>
+    <delete id="deleteUser">
+        delete from user where user_id=#{userId}
+    </delete>
+    <select id="queryOneFood" resultType="com.steins.entity.Food">
+        select * from food where food_id=#{foodId};
+    </select>
+    <select id="queryFoodList" resultType="com.steins.entity.Food">
+        select * from food;
+    </select>
+    <select id="queryOneStoreFoodList" resultType="com.steins.entity.Food">
+        select * from food where store_id=#{storeId}
+    </select>
+    <select id="queryOneStore" resultType="com.steins.entity.Store">
+        select * from store where store_id=#{storeId}
+    </select>
+    <select id="queryStoreList" resultType="com.steins.entity.Store">
+        select * from store
+    </select>
+    <select id="queryAllComment" resultType="com.steins.entity.Comment">
+        select * from sid_comment
+    </select>
+    <select id="queryAllUser" resultType="com.steins.entity.User">
+        select * from user
+    </select>
+
+
+</mapper>

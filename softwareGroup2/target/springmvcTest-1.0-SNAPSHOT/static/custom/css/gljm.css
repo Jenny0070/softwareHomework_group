@@ -1,0 +1,118 @@
+/*公用*/
+.comWidth{width: 1190px;margin-left: auto;margin-right: auto;}
+.leftArea{float: left;}
+.rightArea{float: right;}
+/*topBar*/
+.topBar{height:35px;background-color: #f5f5f5;line-height: 36px;border-bottom: #efefef 1px solid;}
+.index-top4{padding-right: 40px;}
+.index-top5{padding-right: 28px;}
+.index-top6{padding:0 2px;}
+.index-top7{padding-right: 26px;}
+/*logo部分*/
+.logo{height: 100px;border-bottom: #e6e6e6 1px solid;}
+.logo img{float: left;margin-top: 24px;margin-left: -94px;}
+.logo h1{font-family: Microsoft JhengHei;float: left;margin-top: 40px;font-size: 30px;margin-left: 10px;color: #3e3e3e;}
+/*导航菜单*/
+.shoplist{margin-top: 20px;}
+.gl-top{width: 280px;height: 55px;background-color: #f4d506;border-radius: 3px;}
+.gl-top h2{line-height: 55px;text-align: center;font-size: 25px;font-family: 宋体;color: #ffffff;}
+.gl-main{margin-top: 10px;border-left: #f0f0f0 1px solid;border-bottom: #f0f0f0 1px solid;}
+.gl-main-name{font-size: 18px;text-align: center;line-height: 43px;border-bottom: #f0f0f0 1px solid;}
+.main-name{background: url(../images/gljm-icon1.bmp) right center no-repeat;}
+.main-name a{color: #3E3E3E;font-weight: bold;}
+.main-name a:hover{background: #EEEEEE;color: #f4d506;display: block;}
+.main-list a{color: #3E3E3E;font-size: 17px}
+.main-list a:hover{background: #EEEEEE;color: #f4d506;display: block;}
+/*商品清单*/
+.sp{width: 888px;}
+.sp-top{width: 888px;height: 55px;background-color: #ffffff;border-radius: 3px;border:#f0f0f0 1px solid;}
+.sp-top h2{line-height: 55px;font-size: 23px;color:  #f4d506;font-style: italic;padding-left: 20px;}
+.sp-main{background-color:#EEEEEE;}
+.title-text span {display: block;line-height: 66px;position: relative;color: grey;text-align: center;font-family: "宋体"; } 
+.title-text span:before, .title-text span:after { content: ''; position: absolute; top: 50%; background: #8c8c8c; width: 35%;height: 1px; } 
+.title-text span:before {left:7%;} 
+.title-text span:after {right:7%;}
+.sp-main-btn{height: 25px;}
+.sp-main-btn button{float: right;margin-right: 20px;}
+.list{text-align: center;font-size: 17px;font-weight: normal;margin-left: 9px;box-shadow: 0px 0px 2px darkgrey inset;}
+.listh1{line-height: 30px;background-color: #FFFFFF;}
+.lists{margin: 5px 35px;display: block;float: left;font-family: 宋体;}
+.listh2{line-height: 58px;background-color: #FFFFFF;}
+.lists1{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 125px;
+    height: 79px;
+    text-align: center;
+    margin-top: 2px;}
+.lists2{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 135px;
+    height: 70px;
+    margin-top: 9px;
+    text-align: center;
+    margin-left: 12px;}
+.lists2 img{margin-top: 10px;}
+.lists3{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 138px;
+    height: 70px;
+    margin-top: 9px;
+    text-align: center;}
+.lists4{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 118px;
+    height: 70px;
+    margin-top: 9px;
+    text-align: center;}
+.lists5{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 138px;
+    height: 70px;
+    margin-top: 9px;
+    text-align: center;}
+.lists6{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 97px;
+    height: 79px;
+    text-align: center;}
+.lists7{display: block;
+    float: left;
+    font-family: 宋体;
+    width: 104px;
+    height: 79px;
+    text-align: center;}
+.lists6 a{
+    display: block;
+    margin-top: 17px;
+    margin-left: 26px;
+    width: 30px;
+    height: 30px;
+    }
+    .lists7 a{
+    display: block;
+    margin-top: 17px;
+    margin-left: 26px;
+    width: 30px;
+    height: 30px;
+    }
+/*页脚*/
+.footer{ height: 150px;background-color: #FFFFFF;position: absolute;top: 870px;left: 36px;}
+.footer-main1{margin-top: 40px;border: #ebebeb 1px solid;border-left:none;border-right:none;height: 50px;width: 1046px;margin-left: 210px;}
+.footer-main{margin-left: 6px;position: relative;top: 16px;font-size: 12px;border-right: #666666 1px solid;padding-right: 8px;}
+.footer-main2{position: relative;top: 15px;left: 216px;margin-left: 7px;font-size: 13px;}
+.footer-main4{float: left;margin-left: 925px;margin-top: -3px;font-size: 13px;color: #9c9c9c;width: 314px;}
+.footer-main5{float: left;margin: 10px 0 0 223px;font-size: 13px;color: #9c9c9c;}
+
+
+
+
+
+
+
+

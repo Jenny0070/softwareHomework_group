@@ -1,0 +1,54 @@
+/*公用*/
+.comWidth{width: 1020px;margin-left: auto;margin-right: auto;}
+.leftArea{float: left;}
+.rightArea{float: right;}
+a:hover{color:#ff4400;}
+/*topBar*/
+.topBar{height:35px;background-color: #f8f8f8;line-height: 36px;border-bottom: #efefef 1px solid;}
+/*.index-top1{background: url(../images/index-top1.png) right center no-repeat;padding-right: 20px;}*/
+/*.index-top2{background: url(../images/index-top2.png) left center no-repeat;padding-left: 30px;}*/
+/*.index-top3{background: url(../images/index-top3.png) left center no-repeat;padding-left: 20px;padding-right: 30px;}*/
+/*.index-top4{background: url(../images/index-top4.png) left center no-repeat;padding-left: 24px;padding-right: 15px;}*/
+.index-top5{padding-right: 20px;}
+.index-top6{padding:0 22px;}
+.index-top7{padding-right: 15px;}
+.index-top8{padding-left: 30px;}
+/*logo*/
+.logoBar{height: 106px;}
+.logo{padding-top: 12px;margin-left: -180px;}
+/*搜索框*/
+.search-box{width: 700px;margin-top: 50px;}
+.search-text{width:456px;height: 44px;border: #f4d506 3px solid;padding-left: 4px;}
+.search-btn{width: 106px;height: 44px;border: #f4d506 3px solid;background-color:#f4d506 ;color: #FFFFFF;font-size: 22px;font-family: "宋体";cursor: pointer;float: left;}
+/*nav-top*/
+.nav-top{height: 130px;}
+.little-tip1{height: 36px;}
+.little-tip1 h2{float: left;font-size: 15px;margin-top: 6px;margin-left: 16px;}
+.little-tip2{height: 36px;width: 940px;border-bottom: 2px #d1d1d1 solid;margin-left: 10px;}
+.little-tip2 h2{color: #f4d506;float: left;margin-left: 4px;margin-top: 8px;}
+/*主菜单list*/
+.list{height: 600px;}
+.mains{height: 1000px;width: 950px;margin-left: 30px;}
+/*子菜单list1*/
+.list-l1{height: 226px;border-bottom: 2px #d1d1d1 solid;}
+.l1-img{margin-left: 15px;margin-top: 30px;}
+.l1-button{margin-left: 15px;margin-top: 10px;border: none;background: #f74e1c;cursor: pointer;width: 34px;height: 24px;color: white;}
+.l1-test{height: 200px;width: 430px;margin-left: 90px;margin-top: 10px;}
+.l1-test h1{margin-top: 15px;}
+.l1-test span{margin-top: 10px;display: block;float: left;margin-right: 30px;}
+.l1-test h4{width: 50px;height: 26px;padding-top: 42px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
